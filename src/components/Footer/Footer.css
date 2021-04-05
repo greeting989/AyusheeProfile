@@ -1,0 +1,46 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.footerdiv{
+	height : 85px;
+	background-color: #9F3A48;	
+}
+
+.madeby{
+	color: white;
+	position: absolute;
+	top: 30%;
+	left : 5%;
+	bottom: 0px;
+	font-size: 2.5em;
+	padding: 2px;
+}
+
+.contactus{
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	margin-right: 250px;
+}
+
+.far,.fab{
+	margin-left: 50px;
+	font-size: 2.5em; color: white;
+	margin-top: 30px;
+	padding: 2px;
+}
+
+@media screen and (max-width: 960px){
+
+	.madeby{
+		margin-top: 0%;
+		margin-right: 5%;
+		font-size: 40px;
+	}
+	
+    
+}

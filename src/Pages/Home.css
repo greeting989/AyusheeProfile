@@ -1,0 +1,125 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.homediv{
+     background-image: url('https://images.pexels.com/photos/2457284/pexels-photo-2457284.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1300px; 
+    text-shadow: -8px -4px 4px rgba(0,0,0,0.58);
+}
+
+
+
+.backgroundclass{
+    height: 520px;
+    width: 1365px;
+    /*box-shadow:    -4px -3px 10px 1px rgba(0,0,0,0.67);*/
+    filter: grayscale(6%) sepia(12%) brightness(113%) hue-rotate(28deg) saturate(178%) contrast(96%);
+
+}
+
+.backgroundtext{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+   
+}
+
+.avatar1{
+    height : 750px;
+    padding: 5px 5px;
+    margin-left : -15px;
+    margin-top: 55px;
+    margin-right: 55px;
+   /*transform: rotate(8deg) skew(-1deg) translate(3px,16px);*/
+}
+
+.backgroundsubtext{
+    margin-top: 800px;
+    font-size: 105px;
+    padding: 30px;
+    text-shadow: 4px 2px 2px rgba(0,0,0,0.6);
+}
+
+
+.spantxt{
+    /*color: #9F3A48;*/
+    /*text-shadow: 4px 2px 2px rgba(0,0,0,0.9);*/
+    background: #F85032;
+background: -webkit-linear-gradient(to right, #F85032 0%, #F16F5C 50%, #F6290C 51%, #2B2BFF 71%, #E73827 100%);
+background: -moz-linear-gradient(to right, #F85032 0%, #F16F5C 50%, #F6290C 51%, #2B2BFF 71%, #E73827 100%);
+background: linear-gradient(to right, #F85032 0%, #F16F5C 50%, #F6290C 51%, #2B2BFF 71%, #E73827 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.name1{
+    font-size: 105px;
+    animation: blinker 4s linear infinite;
+
+}
+
+.homediv1{
+    margin-top: 25px;
+    margin-left : 30px;
+    font-size: 45px;
+}
+.name2{
+    font-size: 45px;
+    color:#1a0e5e;
+    text-shadow: 4px 2px 2px rgba(0,0,0,0.5);
+}
+@keyframes blinker {
+  50% {
+    opacity: 0.8;
+  }
+}
+
+@media screen and (max-width: 960px){
+
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+    .homediv{
+        height: 1700px;
+        max-width: 1400px;  
+       
+    }
+    
+    .avatar1{
+        height: 490px;
+        margin-top: 15px;
+        margin-right: 5px;
+        margin-left : -250px;
+        
+    }
+
+
+    .backgroundsubtext{
+        margin-top: 750px;
+        margin-right: -320px;
+        text-shadow: 4px 2px 2px rgba(0,0,0,0.6);
+    }
+
+    .spantxt{
+    }
+
+    .homediv1{
+        
+    }
+
+}
